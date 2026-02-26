@@ -12,7 +12,7 @@ with col1:
         st.subheader("📊 일반 통계 분석")
         st.write("업로드된 CSV 파일을 바탕으로 기본적인 데이터 현황을 파악합니다.")
         if st.button("통계 페이지로 이동", use_container_width=True):
-            st.switch_page("pages/01_📊_그래프.py")
+            st.switch_page("pages/01_첫페이지.py")
 
 with col2:
     with st.container(border=True):
@@ -20,7 +20,7 @@ with col2:
         st.write("전 세계 사람들의 MBTI 분포를 인터랙티브 그래프로 확인합니다.")
         # 파일명이 정확해야 합니다 (예: 02_🧬_MBTI.py)
         if st.button("MBTI 분석 보기", use_container_width=True):
-            st.switch_page("pages/02_🧬_MBTI.py")
+            st.switch_page("pages/02_두번째페이지.py")
 
 with col3:
     with st.container(border=True):
@@ -28,7 +28,7 @@ with col3:
         st.write("countries.csv 데이터를 읽어 국가별 통계를 분석합니다.")
         # 파일명이 02_🧬_MBTI.py 라고 가정
         if st.button("MBTI 페이지로 이동", use_container_width=True):
-            st.switch_page("pages/02_🧬_MBTI.py")
+            st.switch_page("pages/03_세번째페이지.py")
             
 
 st.markdown("---")
